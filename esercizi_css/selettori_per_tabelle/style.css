@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse;
+}
+
+
+table td {
+    color: purple;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
