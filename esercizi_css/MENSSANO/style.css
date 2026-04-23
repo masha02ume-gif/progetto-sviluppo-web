@@ -1,0 +1,87 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+position: relative;
+background-image: url(../FOTO_MENSSANO/pattern.png);
+background-size: contain;
+height: 100px;
+background-position: center;
+background-color: aqua;
+margin: 0;
+padding: 0;
+
+}
+
+.logo {
+    position: absolute;
+    height: 50px;
+    left: 0;
+    top: 40px;
+}
+
+h1 {
+    font-size:30px;
+    margin-top: 10px;   
+}
+
+div {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+span {
+    color: lightskyblue;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 0px;
+    margin-left: 0px;
+    left: 0px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+thead {
+background-color:rgb(18, 151, 223);
+}
+
+.ciao {
+    background-color: aqua;
+}
+td {
+
+    margin: 30px;
+
+}
+
+h3 {
+    font-size: 30px;
+background-image: url(../FOTO_MENSSANO/monitor.jpg);
+color: aliceblue;
+width:312px;
+height:208px;
+
+}
+
+h4 {
+    font-size: 30px;
+    background-image: url(../FOTO_MENSSANO/graph.jpg);
+    color:aliceblue;
+    width: 311px;
+    height: 207px;
+
+}
+
