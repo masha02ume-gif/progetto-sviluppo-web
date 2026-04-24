@@ -1,0 +1,22 @@
+li:hover {
+    color:blue;
+    background-color: #dce8ff;
+}
+li:active {
+    color:orange;
+    background-color: #fff3dc;
+}
+
+li {
+    padding: 8px 14px;
+    margin: 4px 0;
+    background-color: #f0f4ff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.15s, background-color 0.15s;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
