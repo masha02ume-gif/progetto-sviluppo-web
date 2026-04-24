@@ -1,0 +1,12 @@
+li {
+padding: 6px 10px;
+cursor: pointer;
+transition: color 3s;
+}
+
+li:hover {
+    color:red;
+    font-weight:bold;
+
+
+}
