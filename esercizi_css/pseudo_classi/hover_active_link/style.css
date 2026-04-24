@@ -1,0 +1,21 @@
+a {
+font-size: 1.1rem;
+text-decoration: none;
+font-weight: bold;
+}
+
+a:link {
+    color: green;
+}
+a:visited {
+    color: purple;
+}
+
+a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+
+a:active {
+    color:blue;
+}
