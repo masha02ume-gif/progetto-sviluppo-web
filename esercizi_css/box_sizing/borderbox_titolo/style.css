@@ -1,0 +1,9 @@
+h1{
+    box-sizing: border-box;
+    height: 80px;
+    padding: 0 20px;
+    border: 1px dashed black;
+    line-height: 80px;
+    font-size: 1.2rem;
+    background-color: bisque;
+}
