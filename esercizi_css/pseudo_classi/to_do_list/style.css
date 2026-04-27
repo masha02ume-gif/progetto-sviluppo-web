@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../logo\ _todolist/logo_css_con_background.png);
+    background-size: contain;
+    height: 50px;
+    background-position: left;
+    background-repeat: no-repeat;
+;
+}
+
+.ToDoList {
+    font-weight: bold;
+    margin-left: 95px;
+    margin-bottom: 50px;
+}
+
+.primo {
+    background-color: lightskyblue;
+    color:aliceblue;
+    border-color: white;
+    border: 1px;
+}
