@@ -1,0 +1,17 @@
+li::before{
+    content: "{";
+    color: steelblue;
+    font-weight: bold;
+}
+li::after {
+    content: "}";
+    color: steelblue;
+    font-weight: bold;
+}
+
+ul{
+    font-family: monospace;
+    font-size: 1.1rem;
+    margin: 6px 0;
+    color: #333;
+}
