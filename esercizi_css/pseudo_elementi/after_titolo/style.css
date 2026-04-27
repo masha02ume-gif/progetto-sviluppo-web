@@ -1,1 +1,11 @@
-h1:after
+h1{
+    display: inline-block;
+}
+
+h1:after {
+    content: "ciao";
+    display: block;
+    border-bottom: 3px solid steelblue;
+    margin-top: 9px;
+    width: 60%;
+}
