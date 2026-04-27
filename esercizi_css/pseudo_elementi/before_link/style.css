@@ -1,0 +1,14 @@
+a::before{
+    content: "\2794";
+    margin-left: 5px;
+    color: orange;
+font-size: 0.9em;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color:steelblue
+}
+a:hover::before{
+    color: red;
+}
