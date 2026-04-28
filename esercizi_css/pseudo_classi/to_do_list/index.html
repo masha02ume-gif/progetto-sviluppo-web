@@ -1,23 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>to do list</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!--spazio logo-->
     <header>
-        <div class="ToDoList">
-         ToDoList
-        </div>
+      <div class="ToDoList">ToDoList</div>
     </header>
-    
-<!--bottoni-->
 
-    <button class="primo"> Add task</button>
-    <button class="secondo"> Add section</button>
-   
-</body>
+    <!--bottoni-->
+    <div class="vuoto">
+      <button class="primo">Add task</button>
+      <button class="secondo">Add section</button>
+      <hr />
+      <!--elenchi-->
+      <ul>
+        <strong> &#9660; New task</strong>
+        <li>
+         <span class="verde"> &#10003; </span>   Qualtry Newsletter <span class="editorial"> editorial </span>
+        </li>
+      </ul>
+      <ul>
+        <strong> &#9660; Today</strong>
+        <li>
+          <span class="verde"> &#10003; </span> recrutiting blog post <span class="editorial">editorial</span>
+        </li>
+        <li><span class="verde"> &#10003; </span> mobile app launch <span class="q1">q1 goals</span></li>
+        <li>
+          <span class="rosso">&#10005;</span> inerview john H. <span class="recruiting">recruiting</span>
+        </li>
+        <li>
+          <span class="verde"> &#10003; </span> summit update to mobiile storefronts
+          <span class="mobile">mobile</span>
+        </li>
+      </ul>
+      <ul>
+        <strong>&#9660; Upcoming </strong>
+        <li> <span class="rosso">&#10005;</span> Schedule meeting with alex</li>
+        <li><span class="verde"> &#10003; </span> homepage refresh <span class="website">website</span></li>
+        <li>
+          <span class="verde"> &#10003; </span> onboard new sales team members
+          <span class="sales">sales</span>
+        </li>
+        <li>
+          <span class="verde"> &#10003; </span> review editorial calendar
+          <span class="editorial">editorial</span>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
