@@ -1,0 +1,50 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    text-align: left;
+    margin-top: 235px;
+
+}
+
+body{
+    background-color: white;
+}
+
+.mestiere{
+    color: white;
+    position:absolute;
+    text-align: left;
+    margin-top: 260px;
+}
+
+a{
+    position: absolute;
+    text-align: left;
+    margin-top: 290px;
+    margin-left: 
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.finestra{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 40px;;
+}
